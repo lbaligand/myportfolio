@@ -1,0 +1,5 @@
+# DB files
+*.db
+
+# log files
+*.log
