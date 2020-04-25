@@ -1,5 +1,16 @@
+# Invisible files
+.*
+
+# venv
+venv
+
+# JS
+node_modules
+package-lock.json
+
 # DB files
 *.db
+*.csv
 
 # log files
 *.log
