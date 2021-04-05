@@ -11,6 +11,11 @@ package-lock.json
 # DB files
 *.db
 *.csv
+*.json
+!data/raw/exchange_symbol_map.json
+
+# Cache file
+*.pyc
 
 # log files
 *.log

@@ -1,0 +1,140 @@
+{
+	"United States of America":
+		{
+			"Chicago Board of Trade (CBOT)": ".CBT",
+			"Chicago Mercantile Exchange (CME)": ".CME",
+			"New York Board of Trade": ".NYB",
+			"Commodity Exchange (COMEX)": ".CMX",
+			"New York Mercantile Exchange (NYMEX)": ".NMY",
+			"OTC Bulletin Board Market": ".OB",
+			"Pink Sheets": ".PK",
+            "New York Stock Exchange": null,
+            "NASDAQ": null
+		},
+	"Argentina":
+		{
+			"Buenos Aires Stock Exchange": ".BA"
+		},
+	"Austria":
+		{
+			"Vienna Stock Exchange (WBAG)": ".VI"
+		},
+	"Australia":
+		{
+			"Australian Securities Exchange (ASX)": ".AX"
+		},
+    "Belgium":
+        {
+            "Euronext Brussels": ".BR"
+        },
+	"Brazil":
+		{
+			"BM&FBOVESPA": ".SA"
+		},
+	"Canada":
+		{
+			"Toronto Stock Exchange (TSX)": ".TO",
+			"TSX Venture Exchange (TSXV)": ".V"
+		},
+	"Chile":
+		{
+			"Santiago Stock Exchange (SSE)": ".SN"
+		},
+	"China":
+		{
+			"Shanghai Stock Exchange": ".SS",
+			"Shenzhen Stock Exchange": ".SZ"
+		},
+	"Denmark":
+		{
+			"OMX Copenhagen": ".CO"
+		},
+	"France":
+		{
+			"Euronext": ".NX",
+			"Euronext Paris": ".PA"
+		},
+	"Germany":
+		{
+			"Berlin Stock Exchange": ".BE",
+			"Bremen Stock Exchange": ".BM",
+			"Dusseldorf Stock Exchange": ".DU",
+			"Borse Frankfurt": ".F",
+			"Hamburg Stock Exchange": ".HM",
+			"Hanover Stock Exchange": ".HA",
+			"Munich Stock Exchange": ".MU",
+			"Stuttgart Stock Exchange": ".SG",
+			"Xetra": ".DE"
+		},
+	"Hong Kong":
+		{
+			"Hong Kong Stock Exchange": ".HK"
+		},
+	"India":
+		{
+			"Bombay Stock Exchange": ".BO",
+			"National Exchange Of India Limited": ".NS"
+		},
+	"Indonesia":
+		{
+			"Jakarta Stock Exchange": ".JK"
+		},
+	"Israel":
+		{
+			"Tel Aviv Stock Exchange": ".TA"
+		},
+	"Italy":
+		{
+			"Borsa Italiana S.p.A.": ".MI"
+		},
+	"Mexico":
+		{
+			"Bolsa Mexicana de Valores": ".MX"
+		},
+	"Netherlands":
+		{
+			"Euronext Amsterdam": ".AS"
+		},
+	"New Zeland":
+		{
+			"New Zealand Stock Exchange (NZX)": ".NZ"
+		},
+	"Norway":
+		{
+			"Oslo Børs": ".OL"
+		},
+	"Singapore":
+		{
+			"Singapore Exchange (SGX)": ".SI"
+		},
+	"South Korea":
+		{
+			"Korea Exchange (KRX)": ".KS",
+			"KOSDAQ": ".KQ"
+		},
+	"Spain":
+		{
+			"Barcelona Stock Exchange": ".BC",
+			"Bilbao Stock Exchange": ".BI",
+			"Madrid Fixed Income Market": ".MF",
+			"Madrid SE C.A.T.S.": ".MC",
+			"Bolsa de Madrid": ".MC"
+		},
+	"Sweden":
+		{
+			"OMX Stockholm": ".ST"
+		},
+	"Switzerland":
+		{
+			"Swiss Stock Exchange (SWX)": ".SW"
+		},
+	"Taiwan":
+		{
+			"Taiwan OTC Exchange": ".TWO",
+			"Taiwan Stock Exchange (TWSE)": ".TW"
+		},
+	"United Kingdom":
+		{
+			"London Stock Exchange (LSE)": ".L"
+		}
+}
