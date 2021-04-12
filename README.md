@@ -7,7 +7,12 @@ The app is built using Dash (plotly) with Yahoo Finance historical data.
 - Degiro unofficial API: https://github.com/lolokraus/DegiroAPI
 
 ## Getting started
-1. Launch a SQL DB (by default in `processed/master_portfolio.db`)
-2. Create `degiro_creds.json` with your credentials (do not share!)
-3. Install requirements: `pip install -r requirements.txt`
-4. Run the app: `python dash_app/index.py`
+1. Launch a SQL DB of any type but supported by SQLAlchemy
+2. Modify `DB_PATH` in `dash_app/config.py`
+3. Create `degiro_creds.json` with your credentials (do not share!)
+4. Install requirements: `pip install -r requirements.txt`
+5. Run the app: `python dash_app/index.py`
+
+## Next steps
+- [ ] Industry breakdown
+- [ ] Dividend tab history and projected

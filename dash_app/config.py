@@ -14,8 +14,3 @@ BASE_CURRENCY = 'EUR'
 
 # DB format
 transaction_table = 'transactions'
-
-dict_logins = {
-    'user': '123',
-    'admin': 'admin'
-}
