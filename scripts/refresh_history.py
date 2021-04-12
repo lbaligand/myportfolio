@@ -1,11 +1,11 @@
-from src.db_backend import SQLiteBackend
+from src.db_backend import DBBackend
 from src.history import daily_prices, daily_portfolio
 from src.transactions import degiro_transactions
 from src.utils import connect_degiro
 
 
 def refresh_history():
-    backend = SQLiteBackend()
+    backend = DBBackend()
 
     degiro_conn = connect_degiro()
 

@@ -5,7 +5,6 @@ Uses SQLAlchemy so that switching DBs is seamless
 
 import datetime
 import logging
-import os
 
 from sqlalchemy import create_engine, MetaData
 
@@ -14,9 +13,9 @@ from dash_app.config import DB_PATH, transaction_table
 logger = logging.getLogger()
 
 
-class DBBackend(object):
-    def __init__(self, path):
-        self.engine = create_engine(path)
+class DBBackend:
+    def __init__(self):
+        self.engine = create_engine(DB_PATH)
         self.connection = self.engine.connect()
         self.metadata = MetaData(bind=self.engine)
         self.start_date = self.start_date()
@@ -39,13 +38,3 @@ class DBBackend(object):
     def close(self):
         """Close the connection to the database."""
         self.connection.close()
-
-
-class SQLiteBackend(DBBackend):
-    """SQLite DB"""
-
-    def __init__(self):
-        # Connecting
-        self.path = f"sqlite:///{DB_PATH}"
-        os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
-        super().__init__(self.path)

@@ -9,10 +9,10 @@ from dash.dependencies import Input, Output
 from dash_app import config
 from dash_app.pages.components import header
 from scripts.refresh_history import refresh_history
-from src.db_backend import SQLiteBackend
+from src.db_backend import DBBackend
 
 refresh_history()
-backend = SQLiteBackend()
+backend = DBBackend()
 df_portfolio_total = pd.read_sql("daily_portfolio_total", parse_dates='Date', con=backend.engine)
 df_portfolio_stocks = pd.read_sql("daily_portfolio_stocks", parse_dates='Date', con=backend.engine)
 

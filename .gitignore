@@ -19,3 +19,6 @@ package-lock.json
 
 # log files
 *.log
+
+# Configs
+dash_app/config.py
