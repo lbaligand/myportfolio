@@ -1,4 +1,4 @@
-requests==2.25.1
+requests==2.31.0
 pandas==1.2.1
 degiroapi==0.9.5
 yfinance==0.1.55
